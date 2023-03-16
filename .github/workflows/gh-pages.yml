@@ -33,7 +33,7 @@ jobs:
         # If you're changing the branch from main, 
         # also change the `main` in `refs/heads/main` 
         # below accordingly.
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/charles-sun0v0.github.io' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
